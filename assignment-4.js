@@ -2,6 +2,14 @@
 // - the user's age is greater than or equal to 18 years (allowed)
 // - the user's age is less than 18 (denied)
 
+const age = parseInt(prompt("enter you age "));
+
+if (age >= 18) {
+  alert("allowed");
+} else {
+  alert("denied");
+}
+
 // Take a number input from the user and alert the message based on the following conditions
 // alert('Condition 1 fulfilled'): if the number is between 2 and 5 inclusive
 // alert('Condition 2 fulfilled'): if the number is between 6 and 10 inclusive

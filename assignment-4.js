@@ -2,13 +2,13 @@
 // - the user's age is greater than or equal to 18 years (allowed)
 // - the user's age is less than 18 (denied)
 
-// const age = parseInt(prompt("enter you age "));
+const age = parseInt(prompt("enter you age "));
 
-// if (age >= 18) {
-//   alert("allowed");
-// } else {
-//   alert("denied");
-// }
+if (age >= 18) {
+  alert("allowed");
+} else {
+  alert("denied");
+}
 
 // Take a number input from the user and alert the message based on the following conditions
 // alert('Condition 1 fulfilled'): if the number is between 2 and 5 inclusive
@@ -16,18 +16,18 @@
 // alert ('Condition 2 fulfilled'): if the number is greater than 10
 // const inputNum = parseInt(prompt("enter number"));
 
-// if (inputNum >= 2 && inputNum <= 5) {
-//   alert("Condition 1 fulfilled");
-// } else if (inputNum >= 6 && inputNum <= 10) {
-//   alert("Condition 2 fulfilled");
-// } else if (inputNum > 10) {
-//   alert("Condition 3 fulfilled");
-// } else {
-//   alert("Invalid input");
-// }
+if (inputNum >= 2 && inputNum <= 5) {
+  alert("Condition 1 fulfilled");
+} else if (inputNum >= 6 && inputNum <= 10) {
+  alert("Condition 2 fulfilled");
+} else if (inputNum > 10) {
+  alert("Condition 3 fulfilled");
+} else {
+  alert("Invalid input");
+}
 
 // Which opertor is used to check whether a property exists on that object
-// Answer:
+// Answer: "in" operator
 
 // check whether the property 'property2' exists on the object
 const exampleObject = {
